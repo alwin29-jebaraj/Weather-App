@@ -1,5 +1,5 @@
 {
-  "name": "Weather Report",
+  "name": "Weather App",
   "description": "A responsive weather report application to search and view real-time weather data for any city.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

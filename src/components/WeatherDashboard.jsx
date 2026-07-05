@@ -400,7 +400,7 @@ export default function WeatherDashboard() {
               <Sun className="w-6 h-6 text-white" id="app-logo-sun-icon" />
             </div>
             <div>
-              <h1 className="text-xl font-black tracking-tighter uppercase text-slate-50" id="app-title-main">SkyCast.io</h1>
+              <h1 className="text-xl font-black tracking-tighter uppercase text-slate-50" id="app-title-main">Weather App</h1>
               <p className="text-[10px] text-slate-500 font-mono tracking-wider" id="app-subtitle-source">
                 PROVIDER / <span className="font-semibold text-slate-400 uppercase">{weather?.source || (dataSource === 'open-meteo' ? 'Open-Meteo' : 'OpenWeatherMap')}</span>
               </p>
