@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: "/Weather-App/",
+    base: process.env.GITHUB_ACTIONS === 'true' ? '/Weather-App/' : './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
